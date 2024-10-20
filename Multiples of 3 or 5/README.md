@@ -1,13 +1,12 @@
-# Write Number in Expanded Form (6 kyu)
+# Multiples of 3 or 5 (6 kyu)
 
-You will be given a number, and you will need to return it as a string in Expanded Form. For example:
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-Examples:
-```
-12 --> "10 + 2"
-45 --> "40 + 5"
-70304 --> "70000 + 300 + 4"
-```
+Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
+
+Additionally, if the number is negative, return 0.
+
+Note: If the number is a multiple of both 3 and 5, only count it once.
 
 NOTE: All numbers will be whole numbers greater than 0.
 
