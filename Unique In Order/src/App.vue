@@ -1,6 +1,6 @@
 <script setup>
 import {useUniqueInOrder} from "@/composables/useUniqueInOrder.js";
-import {computed, ref, unref, watch} from "vue";
+import {computed, ref, unref} from "vue";
 
 const {getUniqueInOrder} = useUniqueInOrder();
 
